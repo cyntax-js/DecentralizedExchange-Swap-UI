@@ -1,0 +1,603 @@
+.Swap_icondropDownDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.token_balances_span {
+  color: #fff;
+  font-size: 11px;
+  color: #bac4be;
+  margin-bottom: 6px;
+}
+.updatedSwapSwapBtn {
+  padding: 15px;
+  width: 100%;
+  border-radius: 15px;
+  font-size: 15px;
+  background: #229e54;
+  color: #ffff;
+  border: none;
+  font-weight: 500;
+}
+.amnt_input_layer1_input_div_dollar_value {
+  font-size: 14px;
+  color: #556957;
+}
+.amnt_input_layer1_input_div {
+  display: flex;
+  flex-direction: column;
+}
+.amnt_input_layer1 {
+  display: flex;
+}
+.amnt_input_layer2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.amnt_input_layer2_cont1 {
+  width: 100%;
+  font-size: 12px;
+  border-radius: 6px;
+  border: none;
+  padding: 6px;
+  margin-right: 15px;
+  background: #243229;
+  color: #fff;
+  transition: 0.2s linear;
+}
+
+.amnt_input_layer2_cont1_last {
+  width: 100%;
+  font-size: 12px;
+  border-radius: 6px;
+  border: none;
+  padding: 6px;
+  margin-right: 0px;
+  background: #243229;
+  color: #fff;
+  transition: 0.2s linear;
+}
+.amnt_input_layer2_cont1:hover {
+  background: #455d4f;
+  transition: 0.2s linear;
+}
+.amnt_input_layer2_cont1_last:hover {
+  background: #455d4f;
+  transition: 0.2s linear;
+}
+.toggle_swap_inputs {
+  position: absolute;
+  background: #111a12;
+  padding: 5px;
+  font-size: 47px !important;
+  border-radius: 50%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  /* border: solid 1px #293d32; */
+  color: #a8b9aa !important;
+  cursor: pointer;
+  top: 15%;
+  bottom: 0;
+  margin: auto;
+  border: solid 5px #1c2c22;
+}
+.liquidity_cont_body_conts_cont1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.swap_price_rate_div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #152016;
+  color: #adbfaf;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 9px;
+}
+.swap_price_rate_div1 {
+  margin-right: 5px;
+}
+.swap_price_rate_div2 {
+  margin-left: 5px;
+}
+.swap_price_rate_div_swap_icon {
+  margin-left: 5px;
+  font-size: 17px !important;
+  background: #243229;
+  border-radius: 50%;
+  padding: 1px;
+  cursor: pointer;
+}
+.moreSwapInfoDiv {
+  margin-top: 10px;
+  color: #fff;
+  padding: 1em;
+  border: solid 1.3px #384f41;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+.moreSwapInfoDiv_div1 {
+  font-size: 12px;
+  border-bottom: solid 1px #384f41;
+  padding-bottom: 10px;
+}
+.moreSwapInfoDiv_div2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #98b4a2;
+}
+.moreSwapInfoDiv_div2_area1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.moreSwapInfoDiv_div2_area1_cont2 {
+  color: #fff;
+}
+.tradeViewAreaCont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tradeViewArea {
+  width: 70%;
+  height: 100%;
+  margin-right: 3em;
+  background: #0b110c9e;
+  padding: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(3px);
+  border: solid 1px #141e16;
+}
+.tradeViewAreaCont .analytics_container_1_Amount {
+  font-size: 28px;
+  margin-bottom: 0em;
+  color: #a7bbaf;
+}
+.tradeViewAreaCont1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+}
+.tradeViewAreaCont1_area2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.tradeViewAreaCont1_area2_cont1_active {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 26px;
+  height: 24px;
+  border-radius: 4px;
+  line-height: 24px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease 0s;
+  background-color: #229e54;
+  color: #ffffff;
+}
+.tradeViewAreaCont1_area2_cont1 {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 26px;
+  height: 24px;
+  border-radius: 4px;
+  line-height: 24px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease 0s;
+  color: #b0bbb2;
+}
+.tradeViewAreaCont_chart_area2 tspan {
+  fill: #a7bbaf;
+  font-size: 12px;
+  font-weight: 100;
+}
+span.tradeViewAreaCont1_area1_priceChangeSpan {
+  font-size: 12px;
+  /* color: #31cb9e; */
+}
+.tradeViewAreaCont_pairs_cont {
+  padding: 1em 2em;
+}
+.tradeViewAreaCont_pairs_cont_div {
+  display: flex;
+  align-items: center;
+}
+.tradeViewAreaCont_pairs_cont_div1 {
+  width: 25px;
+}
+
+.tradeViewAreaCont_pairs_cont_div1_img {
+  width: 100%;
+}
+.tradeViewAreaCont_pairs_cont_div1.moveCloser {
+  margin-right: -6px;
+  position: relative;
+  z-index: 1;
+}
+.tradeViewAreaCont_pairs_cont_div2 {
+  margin-left: 5px;
+  font-size: 24px;
+  color: #fff;
+}
+.tradeViewAreaCont_pairs_cont_div2_slash {
+  margin-left: 5px;
+  font-size: 18px;
+  color: #8a968c;
+}
+.tradeViewAreaCont_pairs_cont_div2.base {
+  font-size: 18px;
+  color: #8a968c;
+}
+.swap_base_ticker_price_change_icon {
+  color: #000000;
+  margin-left: 5px;
+  font-size: 16px !important;
+  background: #8a968c;
+  border-radius: 50%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.swap_container_settings_cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #adbfaf;
+}
+.swap_container_settings_cont_area1 {
+  font-size: 20px;
+}
+.swap_container_settings_cont_area2_icon {
+  font-size: 20px !important;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  padding: 5px;
+  width: 30px !important;
+  height: 30px !important;
+}
+.swap_container_settings_cont_area2_icon2 {
+  font-size: 20px !important;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: all 0.2s ease 0s;
+  padding: 5px;
+  width: 30px !important;
+  height: 30px !important;
+}
+.swap_container_settings_cont_area2_icon:hover {
+  background: #455d4f80;
+  border-radius: 50%;
+  padding: 5px;
+  /* font-size: 63px; */
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease 0s;
+}
+.swap_container_settings_cont_area2_icon2:hover {
+  background: #455d4f80;
+  border-radius: 50%;
+  padding: 5px;
+  /* font-size: 63px; */
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease 0s;
+}
+.liquidity_area1 {
+  max-width: 425px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.swap_container_settings_cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  /* max-width: 425px; */
+  /* width: 100%; */
+  color: #adbfaf;
+  background: #0b110c8f;
+  padding: 0.5em 1em;
+  border-radius: 38px;
+  border: solid 1px #1a271d;
+  backdrop-filter: blur(2px);
+}
+.tradingView_container_1_chart {
+  margin-top: 1em;
+}
+.swap_container_settings_cont_area2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shareSwapDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0b110c96;
+  z-index: 10000;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  backdrop-filter: blur(10px);
+}
+.shareSwapDiv_cont {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  padding: 1em;
+  background: #1c2c22;
+  border-radius: 15px;
+  border: solid 1px #34493c;
+  position: relative;
+  z-index: 1;
+}
+.shareSwapDiv_cont1 {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.shareSwapDiv_cont1_img {
+  width: 100%;
+}
+.shareSwapDiv_cont2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+.shareSwapDiv_cont2_cont1 {
+  display: flex;
+  flex-direction: column;
+}
+.shareSwapDiv_cont2_cont1_title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+}
+.shareSwapDiv_cont2_cont1_sub_title {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: left;
+}
+.shareSwapDiv_cont2_cont1_body {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 2em;
+}
+.shareSwapDiv_cont2_cont1_body_div1 {
+  margin-bottom: 11px;
+  color: #a1bdac;
+  display: list-item;
+}
+
+.shareSwapDiv_cont2_cont2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.shareSwapDiv_cont2_cont2_icon {
+  background: #405c4b;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px !important;
+  height: 50px !important;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.shareSwapDiv_cont2_cont2_icon_div {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  color: #a1bdac;
+  font-size: 14px;
+  margin-right: 2em;
+}
+.shareSwapDiv_cont2_cont2_icon_div_last {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  color: #a1bdac;
+  font-size: 14px;
+  margin-right: 0;
+}
+
+.shareSwapDiv_closeDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: none;
+  overflow: scroll;
+}
+.shareSwapDiv_cont_close_icon {
+  position: absolute;
+  right: 3%;
+  color: #fff;
+  top: 3%;
+  cursor: pointer;
+}
+
+.ToggleChartDiv_checkBox_toggle {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 18px;
+}
+
+.ToggleChartDiv_checkBox_toggle input {
+  display: none;
+}
+
+.ToggleChartDiv_checkBox_slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4a634d;
+  transition: 0.4s;
+  border-radius: 34px;
+  padding: 0px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 13px;
+}
+
+.ToggleChartDiv_checkBox_slider::before {
+  position: absolute;
+  content: "";
+  height: 29px;
+  width: 29px;
+  left: -7px;
+  bottom: 4px;
+  background-color: #1c2c22;
+  transition: 0.4s;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: solid 1px #3d5847;
+  box-shadow: 0px 0px 10px #000;
+  background-image: url("./candleStickIcon.png");
+  background-position: center;
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+
+input:checked + .ToggleChartDiv_checkBox_slider {
+  background-color: #b5d1b8;
+  color: #000;
+  font-weight: 700;
+}
+
+input:checked + .ToggleChartDiv_checkBox_slider::before {
+  transform: translateX(28px);
+
+  left: -1px;
+}
+.ToggleChartDiv {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 1em;
+  border-radius: 14px;
+}
+.ToggleChartDiv_txt {
+  color: #b5b5b5;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.ToggleChartDiv_checkBox_slider.adjustFlex {
+  justify-content: flex-end;
+  color: #88a28b;
+}
+.dark .recharts-default-tooltip {
+  background: #1e2822 !important;
+  color: #fff !important;
+  border: solid 1px #4e7a60 !important;
+}
+.dark .liquidity_cont {
+  background: #1c2c22;
+  box-shadow: 0px 10px 20px #000;
+  border: solid 1px #34493c;
+}
+.dark .amnt_input {
+  /* border: solid 1px #293d32; */
+  background: #111a12;
+}
+.dark .connect_btn:disabled {
+  background: #85ab95;
+  color: #4e6959;
+}
+.dark .input_txt {
+  color: #fff;
+}
+.dark .plus_icon_layer {
+  color: #ffffff;
+}
+.dark .amnt_input_field {
+  color: #aec6b7;
+}
+.dark .connect_btn {
+  background: #ddf2e5;
+  color: #26392d;
+}
+.dark .display_tokens_drop {
+  background: #455d4f;
+  box-shadow: 0px 5px 15px #000;
+  color: #fff;
+}
+.dark .pool_detail_assets_body_layer_1_cont1 {
+  background: #1c2c22;
+  border: solid 1px #3d4e44;
+  color: #fff;
+}
+.dark .pool_detail_assets_body_layer_1_cont1_sub_heading_1b {
+  color: #d8d8d8;
+}
+.dark .asset_list_heading {
+  color: #fff;
+}
+.dark .toggle_dark_mode_div {
+  background: #0b110c;
+  border: solid 1px #33453a;
+}
+.SwapComponentDiv {
+  height: 100vh;
+  overflow: scroll;
+}
+.SwapComponentDiv_section {
+  height: 100%;
+  margin-top: 2em;
+}
+.SwapComponentDiv_section .container {
+  max-width: 1450px;
+  /* overflow: hidden; */
+}
+.SwapComponentDiv_section {
+  background: none !important;
+  padding: 2em;
+}
+@media screen and (max-width: 500px) {
+  .SwapComponentDiv_section {
+    padding: 2em 0em !important;
+  }
+}
